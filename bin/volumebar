@@ -1,0 +1,9 @@
+#!/bin/sh
+
+C1='%{F#ffffffff}|'
+C2='%{F#ff333333}|'
+C3='%{F#ffcc6464}|'
+
+test "$(volume -s)" = "off" && C1="$C3"
+
+volume | SIZE=24 CHAR1=$C1 CHAR2=$C2 mkb

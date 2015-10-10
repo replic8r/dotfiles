@@ -1,0 +1,6 @@
+#!/bin/sh
+
+IMAGE=/tmp/`basename $1`
+curl -s -k "$1" > $IMAGE
+feh $IMAGE
+rm $IMAGE

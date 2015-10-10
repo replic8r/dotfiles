@@ -1,0 +1,32 @@
+!urxvt*font: xft:gohufont:size=11:antialias=true
+!urxvt*font: xft:creep:size=16:antialias=true
+!urxvt*font: xft:envy code r:size=9:antialias=false
+!urxvt*font: xft:lemon:size=11:antialias=false
+!urxvt*font: xft:lime:size=16:antialias=false
+!urxvt*font: xft:neep:size=11:antialias=false
+!urxvt*font: xft:perfect dos vga 437:size=11:antialias=false
+!urxvt*font: xft:tewi:size=11:antialias=false
+URxvt*font: xft:Terminess Powerline:size=12:antialias=false
+!URxvt*font: xft:Fantasque Sans Mono
+!URxvt*font: xft:Fira Mono for Powerline
+
+!urxvt*boldFont: 
+!urxvt*italicFont: 
+!urxvt*bolditalicFont: 
+
+urxvt*letterSpace: 0
+urxvt*lineSpace: -1
+
+! █▓▒░ interface
+urxvt*scrollBar: false
+urxvt*transparent: false
+!urxvt*shading: 38
+
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: ~/dotfiles/bin/browser.sh
+URxvt.matcher.button: 1
+
+!URxvt.backspacekey:         \010
+URxvt.keysym.DEL:   \177
+
+#include "~/termcolors/ars"
