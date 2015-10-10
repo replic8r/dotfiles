@@ -22,7 +22,7 @@ bspc config borderless_monocle true
 
 # Rules
 bspc rule -a Pidgin floating=on
-bspc rule -a mplayer floatin=on
+bspc rule -a mpv floatin=on
 bspc rule -a Thunar pseudo_tiled=on
 bspc rule -a Transmission-gtk pseudo_tiled=on
 bspc rule -a Conky sticky=on manage=off lower=on
